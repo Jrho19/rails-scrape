@@ -1,0 +1,8 @@
+<h1>Rent Entries</h1>
+
+<% @entries_array.each do |entry|  %>
+  <p><%= entry.title %></p>
+  <p><%= entry.url %></p>
+  <p><%= entry.rent %></p>
+  <p><%= entry.address %></p>
+<% end %>
